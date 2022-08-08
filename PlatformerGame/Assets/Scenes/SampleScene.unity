@@ -1215,6 +1215,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _controller: {fileID: 683151450}
+  _moveHor: 0
+  _isJumping: 0
+  _isDashing: 0
 --- !u!50 &683151447
 Rigidbody2D:
   serializedVersion: 4
@@ -1269,8 +1272,9 @@ MonoBehaviour:
   _airControl: 1
   _groundMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 1
   _checkGround: {fileID: 1627050859}
+  _isGrounded: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
